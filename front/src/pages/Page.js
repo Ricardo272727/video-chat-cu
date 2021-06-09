@@ -15,7 +15,19 @@ const Page = ({ children }) => {
   const classes = useStyles();
   return (
     <Box className={classes.root}>
-      <div style={{ padding: "1rem" }}>{children}</div>
+      <div
+        style={{
+          paddingTop: "1vh",
+          paddingBottom: "1vh",
+          paddingLeft: "1vw",
+          paddingRight: "1vw",
+          display: 'flex',
+          justifyContent: 'space-around',
+          alignItems: 'center'
+        }}
+      >
+        {children}
+      </div>
     </Box>
   );
 };

@@ -10,7 +10,7 @@ const RoutesPrivates = () => {
       <Route path="/main_chat" component={MainChat} />
       <Route path="/edit_contact/:id" component={EditContact} />
       <Route path="/meeting/:id" component={Meeting} />
-    </>
+    </>    
   );
 };
 
